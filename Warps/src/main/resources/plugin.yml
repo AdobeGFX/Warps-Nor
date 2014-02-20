@@ -1,0 +1,16 @@
+main: me.adobegfx.warps.Warps
+name: Warps
+version: '1.0'
+description: >
+              Warps, easy to use
+author: AdobeGFX
+database: false
+commands:
+  warp:
+   description: Teleporterer deg til en warp
+  setwarp:
+   description: Lager en warp
+  warps:
+   description: Gir deg full liste med alle warps
+  delwarp:
+   description: Sletter en warp
