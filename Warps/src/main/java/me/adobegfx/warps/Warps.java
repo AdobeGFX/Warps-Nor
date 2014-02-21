@@ -29,7 +29,7 @@ public class Warps extends JavaPlugin {
 	}
 
 	public void onEnable() {
-		boolean vcOn = getConfig().getBoolean("CheckForLatestVersion");
+		boolean vcOn = getConfig().getBoolean("CheckForLatestUpdate");
 		getConfig().options().copyDefaults(true);
 		saveConfig();
 		saveWarpFile();
